@@ -33,10 +33,10 @@ server.listen(8080)
 ```
 
 ## API
-### stats = logHttp(server)
+### `stats = logHttp(server)`
 Create a new stats emitter from a server instance.
 
-### stats.on('data', function(level, data))
+### `stats.on('data', function(level, data))`
 Listen to a new incoming or outgoing request. Logs out the expected log level
 and corresponding data. Should be passed to a logger.
 
